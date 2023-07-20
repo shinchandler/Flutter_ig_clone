@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:ig_clone/homepage.dart';
 
+
 void main() {
   runApp(const MyApp());
 }
@@ -10,9 +11,10 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: HomePage(),
+      theme: ThemeData(primarySwatch: Colors.grey),
+      home: const HomePage(),
     );
   }
 }
