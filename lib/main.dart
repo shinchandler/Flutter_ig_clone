@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:ig_clone/pages/home.dart';
+import 'package:ig_clone/homepage.dart';
 
 void main() {
   runApp(const MyApp());
