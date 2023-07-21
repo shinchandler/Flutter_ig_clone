@@ -10,6 +10,7 @@ class FeedPost extends StatelessWidget {
       width: 800,
       decoration: const BoxDecoration(color: Colors.transparent),
       child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           // profile
           const Padding(
@@ -110,14 +111,12 @@ class FeedPost extends StatelessWidget {
           ),
 
           //view all comments
-          Padding(
-            padding: const EdgeInsets.fromLTRB(15,2, 15, 5),
-            child: Container(
-                alignment: AlignmentDirectional.topStart,
-                child: const Text(
+          const Padding(
+            padding: EdgeInsets.fromLTRB(15,2, 15, 5),
+                child: Text(
                   'View all 176 comments',
                   style: TextStyle(color: Colors.grey),
-                )),
+                ),
           ),
         
           //add a comment
@@ -146,12 +145,10 @@ class FeedPost extends StatelessWidget {
           //upload time
           Padding(
             padding: const EdgeInsets.fromLTRB(15,0, 15, 5),
-            child: Container(
-                alignment: AlignmentDirectional.topStart,
-                child: RichText(text: TextSpan(style: TextStyle(color: Colors.grey,fontSize: 12),children: [
+                child: RichText(text: const TextSpan(style: TextStyle(color: Colors.grey,fontSize: 12),children: [
                   TextSpan(text:'9 hours ago • ',),
                   TextSpan(text: 'See translation',style: TextStyle(color: Colors.black))
-                ]))),
+                ])),
           ),
         ],
       ),

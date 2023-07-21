@@ -22,10 +22,10 @@ class _HomePageState extends State<HomePage> {
 
   final List<Widget> _pages = [
     const UserHomePage(),
-    const ReelsPage(),
     const ExplorePage(),
+    const CreatePostPage(),
+    const ReelsPage(),
     const AccountPage(),
-    const CreatePostPage()
   ];
 
   @override
@@ -33,7 +33,7 @@ class _HomePageState extends State<HomePage> {
     return SafeArea(
       child: Scaffold(
         body: _pages[_selectedIndex],
-        bottomNavigationBar: BottomNavigationBar(selectedItemColor: Colors.blue,onTap: _navigateBottomNavBar, currentIndex: _selectedIndex, type: BottomNavigationBarType.fixed, items: const [
+        bottomNavigationBar: BottomNavigationBar(selectedItemColor: Colors.blue, onTap: _navigateBottomNavBar, currentIndex: _selectedIndex, type: BottomNavigationBarType.fixed, items: const [
           BottomNavigationBarItem(icon: Icon(Icons.home_filled), label: 'Home'),
           BottomNavigationBarItem(icon: Icon(Icons.search_outlined), label: 'Explore'),
           BottomNavigationBarItem(icon: Icon(Icons.add_box_outlined), label: 'Post'),

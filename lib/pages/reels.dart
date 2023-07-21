@@ -5,6 +5,6 @@ class ReelsPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Center(child: Text('Data'));
+    return const Center(child: Text('Reels'));
   }
 }
