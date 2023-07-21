@@ -46,6 +46,6 @@ class ExplorePage extends StatelessWidget {
                       ),
                     ),
         ),
-        body: ExploreGrid());
+        body: const ExploreGrid());
   }
 }
