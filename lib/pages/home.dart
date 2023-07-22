@@ -47,7 +47,7 @@ class UserHomePage extends StatelessWidget {
             ],
           ),
         ),
-        body: Column(
+        body: ListView(
           children: [
             SizedBox(
               height: 140,
@@ -59,8 +59,11 @@ class UserHomePage extends StatelessWidget {
               ),
             ),
             const Divider(),
-            Expanded(
+            SizedBox(
+              height: 100000,
               child: ListView.builder(
+                shrinkWrap: true,
+                physics: const NeverScrollableScrollPhysics(),
                 itemBuilder: (context, index) {
                   return const FeedPost();
                 },

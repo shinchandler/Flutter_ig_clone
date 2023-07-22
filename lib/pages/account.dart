@@ -53,8 +53,7 @@ class AccountPage extends StatelessWidget {
               ],
             ),
           ),
-          body: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
+          body: ListView(
             children: [
               //Pic and stats
               const Padding(
@@ -69,7 +68,7 @@ class AccountPage extends StatelessWidget {
                     Column(
                       children: [
                         Text(
-                          '12',
+                          '10',
                           style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18),
                         ),
                         Text(
@@ -81,7 +80,7 @@ class AccountPage extends StatelessWidget {
                     Column(
                       children: [
                         Text(
-                          '192',
+                          '2B',
                           style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18),
                         ),
                         Text(
@@ -93,7 +92,7 @@ class AccountPage extends StatelessWidget {
                     Column(
                       children: [
                         Text(
-                          '136',
+                          '0',
                           style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18),
                         ),
                         Text(
@@ -200,7 +199,8 @@ class AccountPage extends StatelessWidget {
               ),
 
               //posts
-              const TabBar(tabs: [
+              const TabBar(
+                tabs: [
                 Tab(
                   icon: Icon(Icons.grid_on),
                 ),
@@ -211,10 +211,14 @@ class AccountPage extends StatelessWidget {
                   icon: Icon(Icons.assignment_ind_outlined),
                 ),
               ]),
-              Expanded(
-                  child: TabBarView(children: [
+              SizedBox(
+                height: 1000,
+                  child: TabBarView(
+                    
+                    children: [
                 GridView.builder(
-                  itemCount: 50,
+                  itemCount:15,
+                  physics: const ClampingScrollPhysics(),
                   gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 3),
                   itemBuilder: (context, index) {
                     return Padding(
@@ -228,7 +232,8 @@ class AccountPage extends StatelessWidget {
                   },
                 ),
                 GridView.builder(
-                  itemCount: 10,
+                  itemCount: 20,
+                  physics: const ClampingScrollPhysics(),
                   gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 3),
                   itemBuilder: (context, index) {
                     return Padding(
@@ -243,6 +248,7 @@ class AccountPage extends StatelessWidget {
                 ),
                 GridView.builder(
                   itemCount: 5,
+                  physics: const ClampingScrollPhysics(),
                   gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 3),
                   itemBuilder: (context, index) {
                     return Padding(
