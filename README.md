@@ -4,7 +4,7 @@
 
 https://github.com/shinchandler/ig_ui_clone/assets/63005250/dc64efc3-85ef-4413-80a3-0990592d5a45
 
-## Feedds Screen
+## Feeds Screen
 
 https://github.com/shinchandler/ig_ui_clone/assets/63005250/0217c9b8-6607-47a1-bee6-a9307ae5aae7
 
