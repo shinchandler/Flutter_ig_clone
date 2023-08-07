@@ -1,16 +1,23 @@
 # Ig_clone
 
-## Different Tabs
+## Switching Tabs
 
-https://github.com/shinchandler/ig_ui_clone/assets/63005250/cd774b19-0565-4b91-a66e-a0ba22d5473d
+https://github.com/shinchandler/ig_ui_clone/assets/63005250/dc64efc3-85ef-4413-80a3-0990592d5a45
 
-## Home Page
+## Feedds Screen
 
-https://github.com/shinchandler/ig_ui_clone/assets/63005250/9804ab02-be4f-41b3-bb39-49aa83af5414
+https://github.com/shinchandler/ig_ui_clone/assets/63005250/0217c9b8-6607-47a1-bee6-a9307ae5aae7
 
-## Profile Page
+## User Profile Screen
 
-https://github.com/shinchandler/ig_ui_clone/assets/63005250/668689f2-46b2-4b66-8bcd-009b482b2b8e
+https://github.com/shinchandler/ig_ui_clone/assets/63005250/81d93760-8225-4782-a3e3-a68e679e1d5a
+
+
+
+
+
+
+
 
 
 
