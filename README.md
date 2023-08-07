@@ -1,16 +1,17 @@
-# ig_clone
+# Ig_clone
 
-A new Flutter project.
+## Different Tabs
 
-## Getting Started
+## Home Page
 
-This project is a starting point for a Flutter application.
+## Profile Page
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+https://github.com/shinchandler/ig_ui_clone/assets/63005250/cd774b19-0565-4b91-a66e-a0ba22d5473d
+
+
+https://github.com/shinchandler/ig_ui_clone/assets/63005250/9804ab02-be4f-41b3-bb39-49aa83af5414
+
+
+https://github.com/shinchandler/ig_ui_clone/assets/63005250/668689f2-46b2-4b66-8bcd-009b482b2b8e
