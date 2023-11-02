@@ -1,16 +1,31 @@
-# ig_clone
+# Screen Recordings
 
-A new Flutter project.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+## Switching Tabs
 
-A few resources to get you started if this is your first Flutter project:
+https://github.com/shinchandler/ig_ui_clone/assets/63005250/dc64efc3-85ef-4413-80a3-0990592d5a45
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+## Feeds Screen
+
+https://github.com/shinchandler/ig_ui_clone/assets/63005250/0217c9b8-6607-47a1-bee6-a9307ae5aae7
+
+
+
+## User Profile Screen
+
+https://github.com/shinchandler/ig_ui_clone/assets/63005250/81d93760-8225-4782-a3e3-a68e679e1d5a
+
+
+
+
+
+
+
+
+
+
+
+
