@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:ig_clone/homepage.dart';
+import 'package:ig_clone/pages/homepage.dart';
 
 
 void main() {
